@@ -1,0 +1,48 @@
+@use '../../assets/scss/variables';
+@use '../../assets/scss/_button_group.scss';
+
+// Color Variables
+$primary_color: #1976d2;
+$secondary_color: #4791db;
+$accent_color: #ff9e43;
+$background_color: #1a2038;
+$font-family: "Roboto", sans-serif;
+$font-size1:14px;
+$light_color: #ffffff;
+$black_color: #000000;
+$text_color: #2A2F5B;
+$border_color_light: #cfcfcf;
+$border_color_blue: #8e17d5;
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@include media-breakpoint-up(sm) {
+    // Primary Button
+.primary_btn {
+    display: block;
+    font-size: $font-size1;
+    width: 100%;
+    padding: 10px 20px;
+    color: $light_color;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    background-color: $primary_color;
+
+    &:hover {
+      color: $light_color;
+      background-color: $secondary_color;
+    }
+  }
+ }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }

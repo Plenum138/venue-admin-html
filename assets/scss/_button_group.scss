@@ -1,0 +1,66 @@
+@use './_variables.scss';
+
+
+// Primary Button
+.primary_btn {
+    display: block;
+    font-size: $font-size1;
+    font-weight: normal;
+    width: 100%;
+    padding: 10px 20px;
+    color: $light_color;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    background-color: $primary_color;
+
+    &:hover {
+      color: $light_color;
+      background-color: $secondary_color;
+    }
+  }
+
+.primary_btn_outline {
+    display: block;
+    font-size: $font-size1;
+    font-weight: normal;
+    width: 100%;
+    padding: 10px 20px;
+    color: $primary_color;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid $primary_color;
+    background-color: transparent;
+
+    &:hover {
+      color: $light_color;
+      background-color: $primary_color;
+    }
+  }
+
+  // Secondary Button
+  .secondary_btn {
+    font-size: $font-size1;
+    color: $light_color;
+    border-radius: 2px;
+    background-color: $secondary_color;
+
+    &:hover {
+      color: $black_color;
+      background-color: $primary_color;
+    }
+  }
+
+  .secondary_btn_outline {
+    font-size: $font-size1;
+    color: $light_color;
+    border-radius: 2px;
+    border: 1px solid $secondary_color;
+    background-color: transparent;
+
+    &:hover {
+      color: $black_color;
+      background-color: $primary_color;
+    }
+  }

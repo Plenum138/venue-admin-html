@@ -1,0 +1,111 @@
+@import url(./_variables.scss);
+
+  //  Typography
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, .alert, a, .td-name, td, button.close {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", sans-serif; }
+
+*{
+  box-sizing: border-box;
+}
+
+  .roboto-thin {
+    $font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+body, html {
+  font-size: $font-size1;
+  color: #2A2F5B; }
+
+a {
+  color: #1572E8;
+  text-decoration: none !important; }
+  a:hover, a:focus {
+    color: #1269DB; }
+
+h1,
+.h1 {
+  font-size: 2.15rem; }
+
+h2,
+.h2 {
+  font-size: 1.85rem; }
+
+h3,
+.h3 {
+  font-size: 1.64rem; }
+
+h4,
+.h4 {
+  font-size: 1.48rem; }
+
+h5,
+.h5 {
+  font-size: 1.3rem;
+  font-weight: 400; }
+
+h6,
+.h6 {
+  font-size: 1.07rem;
+  font-weight: 400; }
+
+p {
+  font-size: 1.07rem;
+  line-height: 1.82;
+  margin-bottom: 1rem;
+  word-break: break-word; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.5; }
+
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+    color: inherit; }
+
+small, .small {
+  font-size: 13px; }
+
+b, .b, strong, .strong {
+  font-weight: 600; }
+
+
+/* Login Page Breakpoints Starts */
+
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+
+/* Login Page BreakpointsEnds */

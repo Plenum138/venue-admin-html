@@ -1,0 +1,152 @@
+/**************** login page starts ****************/
+a {
+  text-decoration: none;
+}
+
+.google_img {
+  margin-right: 6px;
+}
+
+.login_section {
+  width: 100%;
+  height: 100%;
+  background-color: #1a2038;
+}
+
+.social_btn {
+  width: 100%;
+  padding: 7px 0;
+  color: #000000;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  filter: drop-shadow(3px 2px 5px #c1bfbf);
+}
+.social_btn:hover {
+  background-color: #d5d4d4;
+  filter: drop-shadow(3px 2px 5px #c1bfbf);
+}
+
+.login_section-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_button_box_text {
+  font-size: 14px;
+}
+
+.login_section--box {
+  height: 388px;
+  padding-top: 4rem;
+  background-image: url("../../assets/img/login-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.login_form_box {
+  height: 388px;
+  background-color: #ffffff;
+  border-radius: 0 10px 10px 0;
+  padding: 30px 30px;
+  margin: 0;
+}
+
+.login_section--box_ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.login_section--box_ul li {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-bottom: 0.85rem;
+}
+
+.login_section--box > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+li::marker {
+  color: red;
+}
+
+.form_label {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+input::-moz-placeholder {
+  font-size: 14px;
+  color: red;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: red;
+}
+
+.forget_text {
+  font-size: 13px;
+}
+
+.login_input {
+  border: 1px solid #cfcfcf;
+}
+
+.login_input:focus {
+  /* border: 1px solid red;  */ /* for error */
+  border: 1px solid #8e17d5;
+}
+
+.primary_btn {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #1976d2;
+}
+.primary_btn:hover {
+  color: #ffffff;
+  background-color: #4791db;
+}
+
+.primary_btn_outline {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  width: 100%;
+  padding: 10px 20px;
+  color: #1976d2;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #1976d2;
+  background-color: transparent;
+}
+.primary_btn_outline:hover {
+  color: #ffffff;
+  background-color: #1976d2;
+}
+
+.secondary_btn_outline {
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #4791db;
+  background-color: transparent;
+}
+.secondary_btn_outline:hover {
+  color: #000000;
+  background-color: #1976d2;
+}/*# sourceMappingURL=login.css.map */
